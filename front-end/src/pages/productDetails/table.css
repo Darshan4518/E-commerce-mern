@@ -1,0 +1,7 @@
+table,
+th,
+td {
+  border: 1px solid rgba(128, 128, 128, 0.699);
+  padding: 10px 12px;
+  text-align: left;
+}

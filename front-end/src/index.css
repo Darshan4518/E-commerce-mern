@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+  background: white; /* color of the tracking area */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: orange; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid white; /* creates padding around scroll thumb */
+}
+
+.productmodal .MuiPaper-elevation {
+  display: grid;
+  place-items: "center";
+  max-width: 70vw;
+  width: 70vw;
+}
